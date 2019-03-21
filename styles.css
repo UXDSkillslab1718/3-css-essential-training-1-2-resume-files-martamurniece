@@ -1,0 +1,80 @@
+/*COLORS
+#B5D99C - light green
+#1A0542 - purple
+#343E3D - dark grey
+#F5EFED - beige
+*/
+
+	a {
+		color: #343E3D;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+main h3{
+	font-weight: : bold;
+	font-size: 20px;
+	background: #1A0542;
+	color: #B5D99C;
+	padding: 15px auto;
+}
+main h2{
+	font-size: 30px;
+	font-weight: bolder;
+	background: black;
+	color: white;
+
+}
+body{
+	background: #F5EFED;
+
+}
+header, footer{
+	background: #F5EFED;
+}
+.opening {
+	font-family: arial, sans serif;
+	font-size: 60px;
+	color: #1A0542;
+	font-weight: bolder;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.aboutme {
+	font-family: arial, sans serif;
+	text-align: center;
+	color: #1A0542;
+	background: #B5D99C; 
+	padding: 1em 2em;
+
+}
+
+
+.nav {
+	text-align: center;
+	font-family: arial, sans serif, color: #1A0542;
+	font-size: 20px;
+	color: #1A0542;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.work {
+	text-align: center;
+	font-family: arial, sans serif;
+	padding: 150px;
+}
+.education{
+	text-align: center;
+	font-family: arial, sans serif;
+	padding: 150px;
+}
+.copyright{
+	font-family: arial, sans serif;
+	padding-top: 100px;
+	text-align: center;
+	color: #B5D99C
+
+
+}
