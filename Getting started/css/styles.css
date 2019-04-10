@@ -1,3 +1,157 @@
-body {
-	background: lightblue;
+/*COLORS
+#B5D99C - light green
+#1A0542 - purple
+#343E3D - dark grey
+#F5EFED - beige
+*/
+html{
+	box-sizing: border-box;
 }
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+header a {
+		color: #343E3D;
+		text-decoration: none;
+		padding: 15px;
+		font-size: 20px;
+}
+
+header a:hover{
+		cursor: pointer;
+		text-decoration: underline;
+}
+h1:before {
+	content: "Hey there, I'm Marta!";
+	color: #1A0542;
+	font-size: 40px;
+}
+.profile_img {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	overflow: auto;
+}
+
+}
+main h3{
+		font-weight: : bold;
+		font-size: 20px;
+		background: #1A0542;
+		color: #B5D99C;
+		padding: 15px;
+}
+
+main h2{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 30px;
+	background: black;
+	color: white;
+}
+
+body{
+	background: #F5EFED;
+	margin: 0;
+}
+
+header, footer{
+	background: #F5EFED;
+}
+
+ {
+float: left;
+margin-bottom: 20px;
+}
+
+main {
+	clear: both;
+}
+
+
+.opening {
+	font-family: arial, sans serif;
+	font-size: 40px;
+	color: #1A0542;
+	font-weight: bolder;
+	text-align: left;
+	text-decoration: underline;
+	margin-left: 25px;
+}
+.first {
+	margin:30px;
+}
+
+.aboutme {
+	font-family: arial, sans serif;
+	text-align: center;
+	color: #B5D99C;
+	padding: 1em 2em;
+
+}
+.aboutme_work{
+	font-family: arial, sans serif;
+	text-align: center;
+	color: #B5D99C;
+	max-width: 500px;
+	margin: 0 auto;
+	/*padding: 1em 2em;*/
+}
+
+.nav {
+	text-align: center;
+	font-family: arial, sans serif, color: #1A0542;
+	font-size: 20px;
+	color: #1A0542;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.work_education {
+	text-align: center;
+	font-family: arial, sans serif;
+	padding: 50 px;
+}
+
+.invitation {
+	padding: 10px, solid;
+	text-decoration: underline;
+	font-color: black;
+	font-family: arial, sans serif;
+	background-size: 500px;
+	background-color: #B5D99C;
+}
+
+.copyright{
+	font-family: arial, sans serif;
+	padding-top: 70px;
+	font-size: 15px;
+	text-align: center;
+	color: #B5D99C;
+}
+
+.text{
+	line-height: 150%;
+	width: 700px auto;
+}
+
+.col-narrow {
+	width:30%;
+	float: left;
+}
+
+.col-wide {
+	width:70%;
+	float: left;
+}
+
+footer a {
+		color: #343E3D;
+		text-decoration: none;
+		padding: 5px;
+		font-size: 15px;	
+	}
+
+ a:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
